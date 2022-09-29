@@ -1,5 +1,6 @@
 const dayDisplay = document.querySelector(".day");
 const timeDisplay = document.querySelector(".time");
+const pmDisplay = document.querySelector(".pm");
 
 const digitalClock = () => {
   let day = new Date().getDate();
@@ -32,8 +33,9 @@ const digitalClock = () => {
 
   day = day < 10 ? `0${day}` : day;
 
-  dayDisplay.innerText = `---${space}${day} ${monthArr[month]} ${year}${space}---`;
-  timeDisplay.innerText = `${hour}:${min}:${second} ${amPm}`;
+  dayDisplay.innerText = `--${space}${day} ${monthArr[month]} ${year}${space}--`;
+  timeDisplay.innerText = `${hour}:${min}:${second}`;
+  pmDisplay.innerText = `${amPm}`;
 };
 
 setInterval(digitalClock, 1000);

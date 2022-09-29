@@ -14,25 +14,33 @@ body {
 }
 
 main {
-  width: 20rem;
+  width: 18rem;
   margin: auto;
   margin-top: 15rem;
   font-family: digitalFont;
-  font-weight: 500;
   color: lime;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .screen-1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .screen-2 {
-  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
 
+  margin-top: 2rem;
   border: 2px solid lime;
   padding: 1rem;
   outline: 2px solid lime;
   outline-offset: 0.5rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+.time {
+  margin-left: 0.7rem;
+}
+.pm {
+  margin-right: 0.7rem;
 }
