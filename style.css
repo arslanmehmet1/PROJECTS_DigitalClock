@@ -9,6 +9,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: dimgrey;
+}
+
+.screen {
+  width: 20rem;
+  margin: auto;
+  margin-top: 20rem;
+  text-align: center;
+}
 .time {
   font-family: digitalFont;
+  font-size: 4rem;
+  color: lime;
 }
