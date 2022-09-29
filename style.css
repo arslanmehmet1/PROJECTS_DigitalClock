@@ -18,6 +18,10 @@ body {
   margin: auto;
   margin-top: 20rem;
   text-align: center;
+  border: 2px solid lime;
+  padding: 1rem;
+  outline: 2px solid lime;
+  outline-offset: 0.5rem;
 }
 .time {
   font-family: digitalFont;
