@@ -13,18 +13,25 @@ body {
   background-color: dimgrey;
 }
 
-.screen {
-  width: 20rem;
+main {
+  width: 22rem;
   margin: auto;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  font-family: digitalFont;
+  color: lime;
   text-align: center;
+}
+
+.screen-1 {
+  font-size: 2rem;
+}
+
+.screen-2 {
+  margin-top: 2rem;
+
   border: 2px solid lime;
   padding: 1rem;
   outline: 2px solid lime;
   outline-offset: 0.5rem;
-}
-.time {
-  font-family: digitalFont;
-  font-size: 4rem;
-  color: lime;
+  font-size: 3rem;
 }
