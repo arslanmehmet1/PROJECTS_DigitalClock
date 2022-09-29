@@ -1,0 +1,14 @@
+@font-face {
+  font-family: digitalFont;
+  src: url(./font/digital-7.regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.time {
+  font-family: digitalFont;
+}
