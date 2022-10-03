@@ -27,6 +27,7 @@ const digitalClock = () => {
   let space = "   ";
 
   let amPm = hour > 12 ? "pm" : "am";
+  hour = hour > 12 ? `${hour - 12}` : hour;
   hour = hour < 10 ? `0${hour}` : hour;
   min = min < 10 ? `0${min}` : min;
   second = second < 10 ? `0${second}` : second;
