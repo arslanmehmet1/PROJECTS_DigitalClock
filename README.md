@@ -1,6 +1,7 @@
 https://arslanmehmet1.github.io/PROJECTS_DigitalClock/
 
 # PROJECTS_DigitalClock
+https://user-images.githubusercontent.com/108485739/225638856-3bbf28a5-04df-4cea-8341-0f42245fc919.mp4
 
 PROJECTS_DigitalClock
 
